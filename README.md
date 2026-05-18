@@ -72,7 +72,8 @@ push → deploy
 - **Multi-stage build**: etapa `builder` con Maven genera el JAR; etapa `runtime` usa solo JRE Alpine (~200MB vs ~600MB)
 - **Usuario no-root**: `appuser:appgroup` por seguridad (mínimo privilegio)
 - **HEALTHCHECK**: permite a Docker y EC2 detectar si el servicio está listo
-- **`-XX:+UseContainerSupport`**: la JVM detecta correctamente los límites de memoria del contenedor
+- **`-XX:+UseContainerSupport`**: la JVM detecta correctamente los límites de memoria del contenedor.
+
 
 ---
 *ISY1101 — Introducción a Herramientas DevOps | DuocUC 2025*
