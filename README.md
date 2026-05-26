@@ -75,5 +75,6 @@ push → deploy
 - **`-XX:+UseContainerSupport`**: la JVM detecta correctamente los límites de memoria del contenedor.
 
 
+
 ---
 *ISY1101 — Introducción a Herramientas DevOps | DuocUC 2025*
